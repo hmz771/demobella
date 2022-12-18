@@ -1,0 +1,15 @@
+package com.bella.demobella.repositories;
+
+
+import com.bella.demobella.model.Product;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface productRepo extends JpaRepository<Product,Long>
+{
+
+
+}
+
+
